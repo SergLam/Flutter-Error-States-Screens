@@ -25,10 +25,12 @@ class PaymentFaildScreen extends StatelessWidget {
                   ),
                 ],
               ),
-              child: FlatButton(
-                color: Color(0xFFFF6F6F),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(50)),
+              child: TextButton(
+                style: TextButton.styleFrom(
+                  backgroundColor: Color(0xFFFF6F6F),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(50)),
+                ),
                 onPressed: () {},
                 child: Text(
                   "retry".toUpperCase(),

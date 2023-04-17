@@ -25,10 +25,13 @@ class RouterOfflineScreen extends StatelessWidget {
                   ),
                 ],
               ),
-              child: FlatButton(
-                color: Colors.white,
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(50)),
+              child: TextButton(
+                style: TextButton.styleFrom(
+                  backgroundColor: Colors.white,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(50)
+                  ),
+                ),
                 onPressed: () {},
                 child: Text(
                   "retry".toUpperCase(),

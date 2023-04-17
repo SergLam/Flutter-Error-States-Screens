@@ -25,10 +25,13 @@ class CameraAccessScreen extends StatelessWidget {
                   ),
                 ],
               ),
-              child: FlatButton(
-                color: Color(0xFFED72AD),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(50)),
+              child: TextButton(
+                style: TextButton.styleFrom(
+                  backgroundColor: Color(0xFFED72AD),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(50)
+                  ),
+                ),
                 onPressed: () {},
                 child: Text(
                   "Allow".toUpperCase(),
